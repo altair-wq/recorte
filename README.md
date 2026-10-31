@@ -1,6 +1,12 @@
 # Recorte
 
-**Clips verificables para redacciones.** An agent that turns long newsroom video (interviews, press conferences, debates) into publish-ready 9:16 clips where every clip is (a) checked for stripped context, (b) approved by a human editor before it renders, and (c) exported with a provenance record that travels with the clip.
+**Clips verificables para redacciones.**
+
+Recorte convierte video largo de redacción —conferencias de prensa, entrevistas, debates— en clips 9:16 listos para publicar que un medio puede defender. Un agente transcribe la fuente con marcas de tiempo por palabra, detecta 6–10 momentos noticiosos y le asigna a cada uno un puntaje de integridad (0–100), señalando contexto recortado con evidencia textual: un condicional perdido como "si se aprueba el presupuesto", una atribución ausente, una pregunta separada de su respuesta, ironía leída en serio. Los cortes caen siempre en límites de oración y las citas se validan como texto literal de la transcripción. Nada se renderiza hasta que un editor revisa el fragmento con 20 s de contexto, lo extiende con un clic y lo aprueba: el endpoint de render rechaza lo no aprobado. Cada clip lleva subtítulos, una placa final con fuente, minuto, aprobador y QR, y un manifiesto de procedencia con hashes SHA-256 de fuente y clip, respaldado por una página pública de verificación. Un chat busca en la transcripción y propone nuevos clips. En español, offline, ~US$0,06 por clip.
+
+---
+
+*English:* An agent that turns long newsroom video (interviews, press conferences, debates) into publish-ready 9:16 clips where every clip is (a) checked for stripped context, (b) approved by a human editor before it renders, and (c) exported with a provenance record that travels with the clip.
 
 > Overlap for newsrooms, with an editorial conscience. Creator clipping tools optimize for virality; Recorte optimizes for clips a newsroom can defend: no mid-sentence cuts, no missing qualifiers, mandatory editor sign-off, source and timestamp on every clip.
 
