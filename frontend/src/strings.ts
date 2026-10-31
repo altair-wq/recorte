@@ -89,6 +89,9 @@ const es = {
   fromChat: 'Agregado desde el chat',
   phonePreview: 'Vista previa 9:16',
   costPerClip: 'Costo estimado',
+  hostedYoutubeHint: 'Desde un servidor en la nube, YouTube suele bloquear la descarga. Usá la fuente de demo o subí un archivo.',
+  hostedNoKeysHint: 'Esta instancia no tiene claves de ASR/LLM: los archivos subidos usan la transcripción de demo. Para probar con tu propio video, corré el proyecto localmente con claves.',
+  hostedRenderHint: 'En el plan gratuito el render tarda 1–2 minutos.',
 }
 
 const en: typeof es = {
@@ -180,6 +183,9 @@ const en: typeof es = {
   fromChat: 'Added from chat',
   phonePreview: '9:16 preview',
   costPerClip: 'Estimated cost',
+  hostedYoutubeHint: 'From a cloud server YouTube usually blocks downloads. Use the demo source or upload a file.',
+  hostedNoKeysHint: 'This instance has no ASR/LLM keys: uploaded files use the demo transcript. To try your own video, run the project locally with keys.',
+  hostedRenderHint: 'On the free tier rendering takes 1–2 minutes.',
 }
 
 export const STRINGS: Record<Lang, typeof es> = { es, en }

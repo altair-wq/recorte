@@ -69,6 +69,11 @@ export default function Home() {
             </button>
           )}
         </div>
+        {health?.hosted && (
+          <p className="mt-3 text-xs text-ink2">
+            {t('hostedYoutubeHint')}{!(health.asr && health.llm) && <> {t('hostedNoKeysHint')}</>}
+          </p>
+        )}
         {err && <p className="mt-3 text-sm text-red">{err}</p>}
 
         {job && (

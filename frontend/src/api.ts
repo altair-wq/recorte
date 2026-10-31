@@ -36,7 +36,7 @@ export interface Clip {
 }
 export interface ChatMessage { role: 'user' | 'assistant'; content: string }
 export interface ChatReply { reply: string; created_moment_ids: string[] }
-export interface Health { ok: boolean; demo_mode: boolean; fixtures: boolean; llm: boolean; asr: boolean; captions: boolean }
+export interface Health { ok: boolean; demo_mode: boolean; fixtures: boolean; llm: boolean; asr: boolean; captions: boolean; hosted?: boolean }
 
 async function req<T>(path: string, init?: RequestInit): Promise<T> {
   const r = await fetch(path, { headers: { 'content-type': 'application/json' }, ...init })

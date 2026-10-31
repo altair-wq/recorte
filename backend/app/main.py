@@ -45,6 +45,7 @@ def health() -> dict:
         "llm": bool(config.ANTHROPIC_API_KEY),
         "asr": bool(config.DEEPGRAM_API_KEY or config.ASSEMBLYAI_API_KEY or config.OPENAI_API_KEY),
         "captions": config.HAS_SUBTITLES_FILTER,
+        "hosted": not config.PUBLIC_BASE_URL.startswith(("http://localhost", "http://127.")),
     }
 
 

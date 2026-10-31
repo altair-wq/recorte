@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { api, type Clip } from '../api'
+import { api, type Clip, type Health } from '../api'
 import Header from '../components/Header'
 import IntegrityBadge from '../components/IntegrityBadge'
 import ProvenanceCard from '../components/ProvenanceCard'
@@ -15,6 +15,8 @@ export default function Export() {
   const { value: clip } = useJob<Clip>(fetcher, (c) => c.status !== 'rendering')
   const [manifest, setManifest] = useState<Record<string, unknown> | null>(null)
   const [copied, setCopied] = useState(false)
+  const [health, setHealth] = useState<Health | null>(null)
+  useEffect(() => { api.health().then(setHealth).catch(() => {}) }, [])
 
   useEffect(() => {
     if (clip?.status === 'ready') api.manifest(clip.id).then(setManifest).catch(() => {})
@@ -43,7 +45,9 @@ export default function Export() {
               <video src={clip.file_url} poster={clip.thumb_url ?? undefined} controls autoPlay muted className="w-full h-full object-contain bg-black" />
             ) : (
               <div className="w-full h-full grid place-items-center text-paper text-sm">
-                {clip?.status === 'error' ? <span className="text-red p-4 text-center">{clip.error}</span> : <span className="animate-pulse">{t('rendering')}</span>}
+                {clip?.status === 'error' ? <span className="text-red p-4 text-center">{clip.error}</span> : (
+                  <span className="text-center px-4"><span className="animate-pulse">{t('rendering')}</span>{health?.hosted && <><br /><span className="text-xs text-paper2/70">{t('hostedRenderHint')}</span></>}</span>
+                )}
               </div>
             )}
           </div>
