@@ -28,7 +28,9 @@ ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY") or None
 DEEPGRAM_API_KEY = os.getenv("DEEPGRAM_API_KEY") or None
 ASSEMBLYAI_API_KEY = os.getenv("ASSEMBLYAI_API_KEY") or None
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY") or None
-PUBLIC_BASE_URL = os.getenv("PUBLIC_BASE_URL", "http://localhost:8000").rstrip("/")
+# Public origin for verify URLs / QR codes. Render sets RENDER_EXTERNAL_URL automatically.
+PUBLIC_BASE_URL = (os.getenv("PUBLIC_BASE_URL") or os.getenv("RENDER_EXTERNAL_URL") or "http://localhost:8000").rstrip("/")
+FRONTEND_DIST = REPO_DIR / "frontend" / "dist"
 DEMO_MODE = os.getenv("DEMO_MODE", "0") in ("1", "true", "True")
 EDITOR_DEFAULT_NAME = os.getenv("EDITOR_DEFAULT_NAME", "editor@demo")
 

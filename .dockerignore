@@ -1,0 +1,11 @@
+.git
+.env
+**/node_modules
+**/dist
+backend/data
+backend/fixtures/demo/*.mp4
+backend/fixtures/demo/*.mp3
+backend/fixtures/demo/clips
+**/__pycache__
+**/.ruff_cache
+docs

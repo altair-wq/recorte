@@ -3,8 +3,9 @@ from __future__ import annotations
 
 import logging
 
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
 from . import config
@@ -45,3 +46,17 @@ def health() -> dict:
         "asr": bool(config.DEEPGRAM_API_KEY or config.ASSEMBLYAI_API_KEY or config.OPENAI_API_KEY),
         "captions": config.HAS_SUBTITLES_FILTER,
     }
+
+
+# Production: serve the built frontend (frontend/dist) from the same origin, with SPA fallback.
+if config.FRONTEND_DIST.exists():
+    app.mount("/assets", StaticFiles(directory=str(config.FRONTEND_DIST / "assets")), name="assets")
+
+    @app.get("/{full_path:path}", include_in_schema=False)
+    def spa(full_path: str) -> FileResponse:
+        if full_path.startswith(("api/", "data/", "v/")):
+            raise HTTPException(404)
+        candidate = config.FRONTEND_DIST / full_path
+        if full_path and candidate.is_file():
+            return FileResponse(candidate)
+        return FileResponse(config.FRONTEND_DIST / "index.html")

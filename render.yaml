@@ -1,0 +1,18 @@
+# Render Blueprint: https://render.com/docs/blueprint-spec
+# Deploy: Render dashboard → New → Blueprint → pick this repo. Free plan; RENDER_EXTERNAL_URL is used for verify URLs/QR.
+services:
+  - type: web
+    name: recorte
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: DEMO_MODE
+        value: "1"
+      - key: EDITOR_DEFAULT_NAME
+        value: editor@demo
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: DEEPGRAM_API_KEY
+        sync: false

@@ -21,7 +21,15 @@ Built from scratch at Media Party Buenos Aires, Oct 31 2026. MIT licensed.
 | **Narrative innovation** | The integrity flag is the story: "the cut drops the qualifier *si se aprueba el presupuesto* spoken 4 s earlier. Extend?" The editor sees the span plus 20 s of muted context with the evidence highlighted, and the quote shown is always the raw ASR text (the LLM may summarize, never quote-paraphrase; enforced in code). |
 | **Commercial viability** | Cost per clip is logged (`backend/data/logs.jsonl`: step, duration, model, estimated USD). Archive search via chat is the expansion path: the same transcript index answers "every time she mentions inflation" and turns hits into clips. |
 
-## Run it
+## Try it online (deploy in one click)
+
+The repo ships a `Dockerfile` (backend + built frontend + ffmpeg with libass + offline demo fixtures baked in) and a `render.yaml` Blueprint:
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/altair-wq/recorte)
+
+Render's free plan is enough for the demo: `DEMO_MODE=1`, no API keys needed, verify URLs and QR codes use the public Render URL automatically (`RENDER_EXTERNAL_URL`). Expect a ~50 s cold start after 15 min idle and clip renders of 1–2 min on the free CPU. Add `ANTHROPIC_API_KEY` / `DEEPGRAM_API_KEY` in the Render dashboard to enable live models. Disk is ephemeral: uploaded sources and rendered clips disappear on redeploy, the demo fixture does not. Any Docker host works the same way (`docker build -t recorte . && docker run -p 8000:8000 recorte`).
+
+## Run it locally
 
 Requirements: Python 3.11+, Node 20+, `ffmpeg`/`ffprobe` on PATH (a build with libass for burned captions; degrades to no captions otherwise).
 
