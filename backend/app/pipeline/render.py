@@ -30,7 +30,8 @@ def _esc_filter_path(p: Path) -> str:
 def render_body(source_mp4: Path, tr: Transcript, start: float, end: float, out_dir: Path, *, captions_on: bool = True) -> Path:
     out_dir.mkdir(parents=True, exist_ok=True)
     body = out_dir / "clip_body.mp4"
-    vf = "crop=ih*9/16:ih:(iw-ih*9/16)/2:0,scale=1080:1920,setsar=1"
+    # Scale to cover first: cropping the source directly fails for videos taller than 9:16.
+    vf = "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1"
     if captions_on and config.HAS_SUBTITLES_FILTER:
         captions.write_srt(tr, start, end, out_dir / "captions.srt")  # exported alongside the clip
         ass = captions.write_ass(tr, start, end, out_dir / "captions.ass")
