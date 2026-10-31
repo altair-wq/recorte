@@ -171,6 +171,18 @@ def find_moments(source_id: str, *, force: bool = False, use_fixture: bool = Fal
         from . import integrity
         for m in moments:
             m.integrity = integrity.check(tr, m.start_utt, m.end_utt, use_fixture=use_fixture)
+    # A rerun must never invalidate already-reviewed clips or their verification pages.
+    # Keep the original review, integrity result, clip ID, and adjustment audit trail.
+    if force and existing:
+        reviewed = [m for m in existing if m.status in ("approved", "rejected")]
+        moments = [
+            m for m in moments
+            if not any(
+                snap.overlap_ratio((m.start, m.end), (old.start, old.end)) > 0.5
+                for old in reviewed
+            )
+        ]
+        moments = sorted([*reviewed, *moments], key=lambda m: m.start)
     db.save_moments(source_id, moments)
     db.index_moments(source_id)
     return moments
