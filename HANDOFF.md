@@ -40,6 +40,7 @@ Context for a local Claude Code session on this Mac. Read `CLAUDE.md` and `READM
 
 ## Gotchas
 
+- On this Mac `python3` on PATH is python.org 3.13 (no project deps) and `ffmpeg` (conda-forge 9.0.2 with libass, conda env `ffmpeg`) is linked in `~/.local/bin`. Either add `export PATH="$HOME/.local/bin:/opt/anaconda3/bin:$PATH"` to `~/.zshrc`, or pass the interpreter explicitly: `make dev PY=/opt/anaconda3/bin/python3` (same for `make fixtures` / `make clip`). `make smoke` calls bare `python3`, so it needs the PATH form.
 - Run `make` commands from inside `~/recorte`; `make dev` occupies its terminal, so use a second terminal tab for anything else.
 - `make dev` uses `python3` from PATH; it must be the same interpreter `make setup` installed into (Anaconda base). If imports fail, run `conda activate base` first.
 - Captions are burned as ASS via the ffmpeg `subtitles` filter; a build without libass just logs a warning and renders without captions.
