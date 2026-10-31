@@ -51,7 +51,10 @@ def _download(url: str, dst: Path, step: str) -> dict:
     t0 = time.time()
     info = subprocess.run([config.YTDLP, "-J", "--no-playlist", url], capture_output=True, text=True)
     if info.returncode != 0:
-        raise PipelineError(step, f"yt-dlp metadata failed: {info.stderr[-400:]}")
+        err = info.stderr
+        if "Sign in to confirm" in err or "not a bot" in err:
+            raise PipelineError(step, "YouTube bloquea descargas desde servidores en la nube. Descargá el video en tu computadora y subilo como archivo, o usá la fuente de demo.")
+        raise PipelineError(step, f"yt-dlp metadata failed: {err[-400:]}")
     meta = json.loads(info.stdout)
     _run([config.YTDLP, "-f", "bv*[height<=720]+ba/b[height<=720]", "--merge-output-format", "mp4",
           "--no-playlist", "-o", str(dst), url], step)

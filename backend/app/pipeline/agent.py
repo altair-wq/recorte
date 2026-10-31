@@ -156,7 +156,13 @@ def _claude(source_id: str, tr: Transcript, messages: list[dict], lang: str) -> 
             text = "".join(b.text for b in resp.content if b.type == "text")
             db.log_call("chat", (time.time() - t0) * 1000, model=config.CHAT_MODEL, est_cost_usd=cost)
             return ChatReply(reply=text, created_moment_ids=created)
-        convo.append({"role": "assistant", "content": [b.model_dump() for b in resp.content]})
+        assistant_blocks: list[dict] = []
+        for b in resp.content:
+            if b.type == "text":
+                assistant_blocks.append({"type": "text", "text": b.text})
+            elif b.type == "tool_use":
+                assistant_blocks.append({"type": "tool_use", "id": b.id, "name": b.name, "input": b.input})
+        convo.append({"role": "assistant", "content": assistant_blocks})
         results = []
         for b in resp.content:
             if b.type != "tool_use":
