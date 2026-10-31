@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+.ruff_cache/
+backend/data/
+backend/fixtures/demo/*.mp4
+backend/fixtures/demo/*.mp3
+backend/fixtures/demo/clips/
+backend/fixtures/demo/poster.jpg
+frontend/node_modules/
+frontend/dist/

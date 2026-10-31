@@ -1,0 +1,10 @@
+[
+  {
+    "match": ["inflacion"],
+    "reply": "Encontré las menciones de inflación en la conferencia. Agregué las tres más relevantes como momentos candidatos; cada uno pasó por el chequeo de integridad y necesita aprobación editorial antes de renderizar."
+  },
+  {
+    "match": ["jubilad"],
+    "reply": "La ministra habla de jubilados en una sola secuencia: repite la acusación de la oposición y la desmiente con un número. Ojo con recortar la frase de la oposición sin la respuesta."
+  }
+]

@@ -1,0 +1,3571 @@
+{
+  "source_id": "demo",
+  "language": "es",
+  "asr_model": "fixture/synthetic",
+  "utterances": [
+    {
+      "id": 0,
+      "start": 1.5,
+      "end": 6.92,
+      "speaker": "Speaker 2",
+      "text": "Buenas tardes a todos y gracias por acompañarnos en esta conferencia de prensa.",
+      "words": [
+        {
+          "w": "Buenas",
+          "start": 1.5,
+          "end": 1.9
+        },
+        {
+          "w": "tardes",
+          "start": 1.95,
+          "end": 2.34
+        },
+        {
+          "w": "a",
+          "start": 2.39,
+          "end": 2.64
+        },
+        {
+          "w": "todos",
+          "start": 2.69,
+          "end": 3.05
+        },
+        {
+          "w": "y",
+          "start": 3.1,
+          "end": 3.35
+        },
+        {
+          "w": "gracias",
+          "start": 3.4,
+          "end": 3.83
+        },
+        {
+          "w": "por",
+          "start": 3.88,
+          "end": 4.18
+        },
+        {
+          "w": "acompañarnos",
+          "start": 4.23,
+          "end": 4.81
+        },
+        {
+          "w": "en",
+          "start": 4.86,
+          "end": 5.13
+        },
+        {
+          "w": "esta",
+          "start": 5.18,
+          "end": 5.52
+        },
+        {
+          "w": "conferencia",
+          "start": 5.57,
+          "end": 6.12
+        },
+        {
+          "w": "de",
+          "start": 6.17,
+          "end": 6.44
+        },
+        {
+          "w": "prensa.",
+          "start": 6.49,
+          "end": 6.92
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "start": 7.67,
+      "end": 13.09,
+      "speaker": "Speaker 2",
+      "text": "Vamos a repasar los números del tercer trimestre y después abrimos a preguntas.",
+      "words": [
+        {
+          "w": "Vamos",
+          "start": 7.67,
+          "end": 8.03
+        },
+        {
+          "w": "a",
+          "start": 8.08,
+          "end": 8.33
+        },
+        {
+          "w": "repasar",
+          "start": 8.38,
+          "end": 8.81
+        },
+        {
+          "w": "los",
+          "start": 8.86,
+          "end": 9.16
+        },
+        {
+          "w": "números",
+          "start": 9.21,
+          "end": 9.64
+        },
+        {
+          "w": "del",
+          "start": 9.69,
+          "end": 9.99
+        },
+        {
+          "w": "tercer",
+          "start": 10.04,
+          "end": 10.44
+        },
+        {
+          "w": "trimestre",
+          "start": 10.49,
+          "end": 10.98
+        },
+        {
+          "w": "y",
+          "start": 11.03,
+          "end": 11.27
+        },
+        {
+          "w": "después",
+          "start": 11.32,
+          "end": 11.75
+        },
+        {
+          "w": "abrimos",
+          "start": 11.8,
+          "end": 12.22
+        },
+        {
+          "w": "a",
+          "start": 12.27,
+          "end": 12.52
+        },
+        {
+          "w": "preguntas.",
+          "start": 12.57,
+          "end": 13.09
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 13.84,
+      "end": 19.73,
+      "speaker": "Speaker 2",
+      "text": "La inflación de septiembre fue del 3,2 por ciento, la más baja en veinte meses.",
+      "words": [
+        {
+          "w": "La",
+          "start": 13.84,
+          "end": 14.11
+        },
+        {
+          "w": "inflación",
+          "start": 14.16,
+          "end": 14.65
+        },
+        {
+          "w": "de",
+          "start": 14.7,
+          "end": 14.97
+        },
+        {
+          "w": "septiembre",
+          "start": 15.02,
+          "end": 15.54
+        },
+        {
+          "w": "fue",
+          "start": 15.59,
+          "end": 15.9
+        },
+        {
+          "w": "del",
+          "start": 15.95,
+          "end": 16.25
+        },
+        {
+          "w": "3,2",
+          "start": 16.3,
+          "end": 16.61
+        },
+        {
+          "w": "por",
+          "start": 16.66,
+          "end": 16.96
+        },
+        {
+          "w": "ciento,",
+          "start": 17.01,
+          "end": 17.44
+        },
+        {
+          "w": "la",
+          "start": 17.49,
+          "end": 17.77
+        },
+        {
+          "w": "más",
+          "start": 17.82,
+          "end": 18.12
+        },
+        {
+          "w": "baja",
+          "start": 18.17,
+          "end": 18.51
+        },
+        {
+          "w": "en",
+          "start": 18.56,
+          "end": 18.83
+        },
+        {
+          "w": "veinte",
+          "start": 18.88,
+          "end": 19.28
+        },
+        {
+          "w": "meses.",
+          "start": 19.33,
+          "end": 19.73
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 20.48,
+      "end": 24.29,
+      "speaker": "Speaker 2",
+      "text": "Es un dato que nos alienta, pero no nos conforma.",
+      "words": [
+        {
+          "w": "Es",
+          "start": 20.48,
+          "end": 20.75
+        },
+        {
+          "w": "un",
+          "start": 20.8,
+          "end": 21.08
+        },
+        {
+          "w": "dato",
+          "start": 21.13,
+          "end": 21.46
+        },
+        {
+          "w": "que",
+          "start": 21.51,
+          "end": 21.82
+        },
+        {
+          "w": "nos",
+          "start": 21.87,
+          "end": 22.18
+        },
+        {
+          "w": "alienta,",
+          "start": 22.23,
+          "end": 22.68
+        },
+        {
+          "w": "pero",
+          "start": 22.73,
+          "end": 23.07
+        },
+        {
+          "w": "no",
+          "start": 23.12,
+          "end": 23.39
+        },
+        {
+          "w": "nos",
+          "start": 23.44,
+          "end": 23.75
+        },
+        {
+          "w": "conforma.",
+          "start": 23.8,
+          "end": 24.29
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 25.04,
+      "end": 30.63,
+      "speaker": "Speaker 2",
+      "text": "El objetivo del gobierno sigue siendo recuperar el poder adquisitivo de los salarios.",
+      "words": [
+        {
+          "w": "El",
+          "start": 25.04,
+          "end": 25.31
+        },
+        {
+          "w": "objetivo",
+          "start": 25.36,
+          "end": 25.82
+        },
+        {
+          "w": "del",
+          "start": 25.87,
+          "end": 26.17
+        },
+        {
+          "w": "gobierno",
+          "start": 26.22,
+          "end": 26.68
+        },
+        {
+          "w": "sigue",
+          "start": 26.73,
+          "end": 27.1
+        },
+        {
+          "w": "siendo",
+          "start": 27.15,
+          "end": 27.54
+        },
+        {
+          "w": "recuperar",
+          "start": 27.59,
+          "end": 28.08
+        },
+        {
+          "w": "el",
+          "start": 28.13,
+          "end": 28.4
+        },
+        {
+          "w": "poder",
+          "start": 28.45,
+          "end": 28.82
+        },
+        {
+          "w": "adquisitivo",
+          "start": 28.87,
+          "end": 29.42
+        },
+        {
+          "w": "de",
+          "start": 29.47,
+          "end": 29.74
+        },
+        {
+          "w": "los",
+          "start": 29.79,
+          "end": 30.1
+        },
+        {
+          "w": "salarios.",
+          "start": 30.15,
+          "end": 30.63
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 31.98,
+      "end": 37.16,
+      "speaker": "Speaker 1",
+      "text": "Ministra, ¿cuál es la meta concreta de inflación para el año que viene?",
+      "words": [
+        {
+          "w": "Ministra,",
+          "start": 31.98,
+          "end": 32.47
+        },
+        {
+          "w": "¿cuál",
+          "start": 32.52,
+          "end": 32.89
+        },
+        {
+          "w": "es",
+          "start": 32.94,
+          "end": 33.21
+        },
+        {
+          "w": "la",
+          "start": 33.26,
+          "end": 33.54
+        },
+        {
+          "w": "meta",
+          "start": 33.59,
+          "end": 33.92
+        },
+        {
+          "w": "concreta",
+          "start": 33.97,
+          "end": 34.43
+        },
+        {
+          "w": "de",
+          "start": 34.48,
+          "end": 34.76
+        },
+        {
+          "w": "inflación",
+          "start": 34.81,
+          "end": 35.29
+        },
+        {
+          "w": "para",
+          "start": 35.34,
+          "end": 35.68
+        },
+        {
+          "w": "el",
+          "start": 35.73,
+          "end": 36.0
+        },
+        {
+          "w": "año",
+          "start": 36.05,
+          "end": 36.36
+        },
+        {
+          "w": "que",
+          "start": 36.41,
+          "end": 36.72
+        },
+        {
+          "w": "viene?",
+          "start": 36.77,
+          "end": 37.16
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 38.51,
+      "end": 42.77,
+      "speaker": "Speaker 2",
+      "text": "Buena pregunta. Le respondo con una condición que es importante.",
+      "words": [
+        {
+          "w": "Buena",
+          "start": 38.51,
+          "end": 38.88
+        },
+        {
+          "w": "pregunta.",
+          "start": 38.93,
+          "end": 39.41
+        },
+        {
+          "w": "Le",
+          "start": 39.46,
+          "end": 39.74
+        },
+        {
+          "w": "respondo",
+          "start": 39.79,
+          "end": 40.25
+        },
+        {
+          "w": "con",
+          "start": 40.3,
+          "end": 40.6
+        },
+        {
+          "w": "una",
+          "start": 40.65,
+          "end": 40.96
+        },
+        {
+          "w": "condición",
+          "start": 41.01,
+          "end": 41.49
+        },
+        {
+          "w": "que",
+          "start": 41.54,
+          "end": 41.85
+        },
+        {
+          "w": "es",
+          "start": 41.9,
+          "end": 42.18
+        },
+        {
+          "w": "importante.",
+          "start": 42.23,
+          "end": 42.77
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 43.52,
+      "end": 48.49,
+      "speaker": "Speaker 2",
+      "text": "Si se aprueba el presupuesto en el Congreso antes de fin de año,",
+      "words": [
+        {
+          "w": "Si",
+          "start": 43.52,
+          "end": 43.8
+        },
+        {
+          "w": "se",
+          "start": 43.85,
+          "end": 44.12
+        },
+        {
+          "w": "aprueba",
+          "start": 44.17,
+          "end": 44.6
+        },
+        {
+          "w": "el",
+          "start": 44.65,
+          "end": 44.93
+        },
+        {
+          "w": "presupuesto",
+          "start": 44.98,
+          "end": 45.52
+        },
+        {
+          "w": "en",
+          "start": 45.57,
+          "end": 45.85
+        },
+        {
+          "w": "el",
+          "start": 45.9,
+          "end": 46.17
+        },
+        {
+          "w": "Congreso",
+          "start": 46.22,
+          "end": 46.68
+        },
+        {
+          "w": "antes",
+          "start": 46.73,
+          "end": 47.1
+        },
+        {
+          "w": "de",
+          "start": 47.15,
+          "end": 47.42
+        },
+        {
+          "w": "fin",
+          "start": 47.47,
+          "end": 47.78
+        },
+        {
+          "w": "de",
+          "start": 47.83,
+          "end": 48.1
+        },
+        {
+          "w": "año,",
+          "start": 48.15,
+          "end": 48.49
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 49.24,
+      "end": 54.39,
+      "speaker": "Speaker 2",
+      "text": "vamos a bajar la inflación a un dígito mensual en el primer trimestre.",
+      "words": [
+        {
+          "w": "vamos",
+          "start": 49.24,
+          "end": 49.61
+        },
+        {
+          "w": "a",
+          "start": 49.66,
+          "end": 49.9
+        },
+        {
+          "w": "bajar",
+          "start": 49.95,
+          "end": 50.32
+        },
+        {
+          "w": "la",
+          "start": 50.37,
+          "end": 50.64
+        },
+        {
+          "w": "inflación",
+          "start": 50.69,
+          "end": 51.18
+        },
+        {
+          "w": "a",
+          "start": 51.23,
+          "end": 51.48
+        },
+        {
+          "w": "un",
+          "start": 51.53,
+          "end": 51.8
+        },
+        {
+          "w": "dígito",
+          "start": 51.85,
+          "end": 52.25
+        },
+        {
+          "w": "mensual",
+          "start": 52.3,
+          "end": 52.72
+        },
+        {
+          "w": "en",
+          "start": 52.77,
+          "end": 53.05
+        },
+        {
+          "w": "el",
+          "start": 53.1,
+          "end": 53.38
+        },
+        {
+          "w": "primer",
+          "start": 53.43,
+          "end": 53.82
+        },
+        {
+          "w": "trimestre.",
+          "start": 53.87,
+          "end": 54.39
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 55.14,
+      "end": 59.96,
+      "speaker": "Speaker 2",
+      "text": "Eso significa menos del uno por ciento mensual hacia marzo o abril.",
+      "words": [
+        {
+          "w": "Eso",
+          "start": 55.14,
+          "end": 55.44
+        },
+        {
+          "w": "significa",
+          "start": 55.49,
+          "end": 55.98
+        },
+        {
+          "w": "menos",
+          "start": 56.03,
+          "end": 56.4
+        },
+        {
+          "w": "del",
+          "start": 56.45,
+          "end": 56.75
+        },
+        {
+          "w": "uno",
+          "start": 56.8,
+          "end": 57.11
+        },
+        {
+          "w": "por",
+          "start": 57.16,
+          "end": 57.46
+        },
+        {
+          "w": "ciento",
+          "start": 57.51,
+          "end": 57.91
+        },
+        {
+          "w": "mensual",
+          "start": 57.96,
+          "end": 58.39
+        },
+        {
+          "w": "hacia",
+          "start": 58.44,
+          "end": 58.8
+        },
+        {
+          "w": "marzo",
+          "start": 58.85,
+          "end": 59.22
+        },
+        {
+          "w": "o",
+          "start": 59.27,
+          "end": 59.51
+        },
+        {
+          "w": "abril.",
+          "start": 59.56,
+          "end": 59.96
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 60.71,
+      "end": 67.02,
+      "speaker": "Speaker 2",
+      "text": "Y lo vamos a lograr sin congelar precios y sin tocar los salarios de los trabajadores.",
+      "words": [
+        {
+          "w": "Y",
+          "start": 60.71,
+          "end": 60.96
+        },
+        {
+          "w": "lo",
+          "start": 61.01,
+          "end": 61.28
+        },
+        {
+          "w": "vamos",
+          "start": 61.33,
+          "end": 61.7
+        },
+        {
+          "w": "a",
+          "start": 61.75,
+          "end": 61.99
+        },
+        {
+          "w": "lograr",
+          "start": 62.04,
+          "end": 62.44
+        },
+        {
+          "w": "sin",
+          "start": 62.49,
+          "end": 62.8
+        },
+        {
+          "w": "congelar",
+          "start": 62.85,
+          "end": 63.3
+        },
+        {
+          "w": "precios",
+          "start": 63.35,
+          "end": 63.78
+        },
+        {
+          "w": "y",
+          "start": 63.83,
+          "end": 64.07
+        },
+        {
+          "w": "sin",
+          "start": 64.12,
+          "end": 64.43
+        },
+        {
+          "w": "tocar",
+          "start": 64.48,
+          "end": 64.85
+        },
+        {
+          "w": "los",
+          "start": 64.9,
+          "end": 65.2
+        },
+        {
+          "w": "salarios",
+          "start": 65.25,
+          "end": 65.71
+        },
+        {
+          "w": "de",
+          "start": 65.76,
+          "end": 66.03
+        },
+        {
+          "w": "los",
+          "start": 66.08,
+          "end": 66.39
+        },
+        {
+          "w": "trabajadores.",
+          "start": 66.44,
+          "end": 67.02
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 68.37,
+      "end": 71.05,
+      "speaker": "Speaker 1",
+      "text": "¿Y si el presupuesto no se aprueba?",
+      "words": [
+        {
+          "w": "¿Y",
+          "start": 68.37,
+          "end": 68.64
+        },
+        {
+          "w": "si",
+          "start": 68.69,
+          "end": 68.97
+        },
+        {
+          "w": "el",
+          "start": 69.02,
+          "end": 69.29
+        },
+        {
+          "w": "presupuesto",
+          "start": 69.34,
+          "end": 69.89
+        },
+        {
+          "w": "no",
+          "start": 69.94,
+          "end": 70.22
+        },
+        {
+          "w": "se",
+          "start": 70.27,
+          "end": 70.54
+        },
+        {
+          "w": "aprueba?",
+          "start": 70.59,
+          "end": 71.05
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 72.4,
+      "end": 77.61,
+      "speaker": "Speaker 2",
+      "text": "Si no se aprueba, el escenario cambia y tendríamos que revisar esa meta.",
+      "words": [
+        {
+          "w": "Si",
+          "start": 72.4,
+          "end": 72.67
+        },
+        {
+          "w": "no",
+          "start": 72.72,
+          "end": 73.0
+        },
+        {
+          "w": "se",
+          "start": 73.05,
+          "end": 73.33
+        },
+        {
+          "w": "aprueba,",
+          "start": 73.38,
+          "end": 73.83
+        },
+        {
+          "w": "el",
+          "start": 73.88,
+          "end": 74.16
+        },
+        {
+          "w": "escenario",
+          "start": 74.21,
+          "end": 74.69
+        },
+        {
+          "w": "cambia",
+          "start": 74.74,
+          "end": 75.14
+        },
+        {
+          "w": "y",
+          "start": 75.19,
+          "end": 75.44
+        },
+        {
+          "w": "tendríamos",
+          "start": 75.49,
+          "end": 76.0
+        },
+        {
+          "w": "que",
+          "start": 76.05,
+          "end": 76.36
+        },
+        {
+          "w": "revisar",
+          "start": 76.41,
+          "end": 76.83
+        },
+        {
+          "w": "esa",
+          "start": 76.88,
+          "end": 77.19
+        },
+        {
+          "w": "meta.",
+          "start": 77.24,
+          "end": 77.61
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 78.36,
+      "end": 83.09,
+      "speaker": "Speaker 2",
+      "text": "Por eso estamos dialogando con todos los bloques, incluida la oposición.",
+      "words": [
+        {
+          "w": "Por",
+          "start": 78.36,
+          "end": 78.66
+        },
+        {
+          "w": "eso",
+          "start": 78.71,
+          "end": 79.02
+        },
+        {
+          "w": "estamos",
+          "start": 79.07,
+          "end": 79.49
+        },
+        {
+          "w": "dialogando",
+          "start": 79.54,
+          "end": 80.06
+        },
+        {
+          "w": "con",
+          "start": 80.11,
+          "end": 80.42
+        },
+        {
+          "w": "todos",
+          "start": 80.47,
+          "end": 80.83
+        },
+        {
+          "w": "los",
+          "start": 80.88,
+          "end": 81.19
+        },
+        {
+          "w": "bloques,",
+          "start": 81.24,
+          "end": 81.69
+        },
+        {
+          "w": "incluida",
+          "start": 81.74,
+          "end": 82.2
+        },
+        {
+          "w": "la",
+          "start": 82.25,
+          "end": 82.53
+        },
+        {
+          "w": "oposición.",
+          "start": 82.58,
+          "end": 83.09
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 84.44,
+      "end": 89.05,
+      "speaker": "Speaker 1",
+      "text": "Ministra, ¿van a aumentar las tarifas de luz y gas en enero?",
+      "words": [
+        {
+          "w": "Ministra,",
+          "start": 84.44,
+          "end": 84.93
+        },
+        {
+          "w": "¿van",
+          "start": 84.98,
+          "end": 85.31
+        },
+        {
+          "w": "a",
+          "start": 85.36,
+          "end": 85.61
+        },
+        {
+          "w": "aumentar",
+          "start": 85.66,
+          "end": 86.12
+        },
+        {
+          "w": "las",
+          "start": 86.17,
+          "end": 86.47
+        },
+        {
+          "w": "tarifas",
+          "start": 86.52,
+          "end": 86.95
+        },
+        {
+          "w": "de",
+          "start": 87.0,
+          "end": 87.27
+        },
+        {
+          "w": "luz",
+          "start": 87.32,
+          "end": 87.63
+        },
+        {
+          "w": "y",
+          "start": 87.68,
+          "end": 87.93
+        },
+        {
+          "w": "gas",
+          "start": 87.98,
+          "end": 88.28
+        },
+        {
+          "w": "en",
+          "start": 88.33,
+          "end": 88.61
+        },
+        {
+          "w": "enero?",
+          "start": 88.66,
+          "end": 89.05
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "start": 89.8,
+      "end": 96.97,
+      "speaker": "Speaker 1",
+      "text": "Hay versiones en varios medios que hablan de un aumento del cuarenta por ciento a partir de enero.",
+      "words": [
+        {
+          "w": "Hay",
+          "start": 89.8,
+          "end": 90.11
+        },
+        {
+          "w": "versiones",
+          "start": 90.16,
+          "end": 90.65
+        },
+        {
+          "w": "en",
+          "start": 90.7,
+          "end": 90.97
+        },
+        {
+          "w": "varios",
+          "start": 91.02,
+          "end": 91.42
+        },
+        {
+          "w": "medios",
+          "start": 91.47,
+          "end": 91.86
+        },
+        {
+          "w": "que",
+          "start": 91.91,
+          "end": 92.22
+        },
+        {
+          "w": "hablan",
+          "start": 92.27,
+          "end": 92.67
+        },
+        {
+          "w": "de",
+          "start": 92.72,
+          "end": 92.99
+        },
+        {
+          "w": "un",
+          "start": 93.04,
+          "end": 93.32
+        },
+        {
+          "w": "aumento",
+          "start": 93.37,
+          "end": 93.79
+        },
+        {
+          "w": "del",
+          "start": 93.84,
+          "end": 94.15
+        },
+        {
+          "w": "cuarenta",
+          "start": 94.2,
+          "end": 94.66
+        },
+        {
+          "w": "por",
+          "start": 94.71,
+          "end": 95.01
+        },
+        {
+          "w": "ciento",
+          "start": 95.06,
+          "end": 95.46
+        },
+        {
+          "w": "a",
+          "start": 95.51,
+          "end": 95.75
+        },
+        {
+          "w": "partir",
+          "start": 95.8,
+          "end": 96.2
+        },
+        {
+          "w": "de",
+          "start": 96.25,
+          "end": 96.53
+        },
+        {
+          "w": "enero.",
+          "start": 96.58,
+          "end": 96.97
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "start": 98.32,
+      "end": 102.11,
+      "speaker": "Speaker 2",
+      "text": "No hay ninguna decisión tomada sobre tarifas para enero.",
+      "words": [
+        {
+          "w": "No",
+          "start": 98.32,
+          "end": 98.6
+        },
+        {
+          "w": "hay",
+          "start": 98.65,
+          "end": 98.95
+        },
+        {
+          "w": "ninguna",
+          "start": 99.0,
+          "end": 99.43
+        },
+        {
+          "w": "decisión",
+          "start": 99.48,
+          "end": 99.94
+        },
+        {
+          "w": "tomada",
+          "start": 99.99,
+          "end": 100.38
+        },
+        {
+          "w": "sobre",
+          "start": 100.43,
+          "end": 100.8
+        },
+        {
+          "w": "tarifas",
+          "start": 100.85,
+          "end": 101.27
+        },
+        {
+          "w": "para",
+          "start": 101.32,
+          "end": 101.66
+        },
+        {
+          "w": "enero.",
+          "start": 101.71,
+          "end": 102.11
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "start": 102.86,
+      "end": 110.08,
+      "speaker": "Speaker 2",
+      "text": "Lo que sí puedo decir es que cualquier actualización va a proteger a los hogares de menores ingresos.",
+      "words": [
+        {
+          "w": "Lo",
+          "start": 102.86,
+          "end": 103.13
+        },
+        {
+          "w": "que",
+          "start": 103.18,
+          "end": 103.49
+        },
+        {
+          "w": "sí",
+          "start": 103.54,
+          "end": 103.81
+        },
+        {
+          "w": "puedo",
+          "start": 103.86,
+          "end": 104.23
+        },
+        {
+          "w": "decir",
+          "start": 104.28,
+          "end": 104.65
+        },
+        {
+          "w": "es",
+          "start": 104.7,
+          "end": 104.97
+        },
+        {
+          "w": "que",
+          "start": 105.02,
+          "end": 105.33
+        },
+        {
+          "w": "cualquier",
+          "start": 105.38,
+          "end": 105.86
+        },
+        {
+          "w": "actualización",
+          "start": 105.91,
+          "end": 106.49
+        },
+        {
+          "w": "va",
+          "start": 106.54,
+          "end": 106.82
+        },
+        {
+          "w": "a",
+          "start": 106.87,
+          "end": 107.11
+        },
+        {
+          "w": "proteger",
+          "start": 107.16,
+          "end": 107.62
+        },
+        {
+          "w": "a",
+          "start": 107.67,
+          "end": 107.91
+        },
+        {
+          "w": "los",
+          "start": 107.96,
+          "end": 108.27
+        },
+        {
+          "w": "hogares",
+          "start": 108.32,
+          "end": 108.75
+        },
+        {
+          "w": "de",
+          "start": 108.8,
+          "end": 109.07
+        },
+        {
+          "w": "menores",
+          "start": 109.12,
+          "end": 109.55
+        },
+        {
+          "w": "ingresos.",
+          "start": 109.6,
+          "end": 110.08
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "start": 110.83,
+      "end": 116.01,
+      "speaker": "Speaker 2",
+      "text": "La tarifa social se mantiene y se amplía a doscientas mil familias más.",
+      "words": [
+        {
+          "w": "La",
+          "start": 110.83,
+          "end": 111.11
+        },
+        {
+          "w": "tarifa",
+          "start": 111.16,
+          "end": 111.56
+        },
+        {
+          "w": "social",
+          "start": 111.61,
+          "end": 112.0
+        },
+        {
+          "w": "se",
+          "start": 112.05,
+          "end": 112.33
+        },
+        {
+          "w": "mantiene",
+          "start": 112.38,
+          "end": 112.83
+        },
+        {
+          "w": "y",
+          "start": 112.88,
+          "end": 113.13
+        },
+        {
+          "w": "se",
+          "start": 113.18,
+          "end": 113.46
+        },
+        {
+          "w": "amplía",
+          "start": 113.51,
+          "end": 113.9
+        },
+        {
+          "w": "a",
+          "start": 113.95,
+          "end": 114.2
+        },
+        {
+          "w": "doscientas",
+          "start": 114.25,
+          "end": 114.76
+        },
+        {
+          "w": "mil",
+          "start": 114.81,
+          "end": 115.12
+        },
+        {
+          "w": "familias",
+          "start": 115.17,
+          "end": 115.63
+        },
+        {
+          "w": "más.",
+          "start": 115.68,
+          "end": 116.01
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "start": 117.36,
+      "end": 122.09,
+      "speaker": "Speaker 1",
+      "text": "La oposición dice que el ajuste va a recaer sobre los jubilados.",
+      "words": [
+        {
+          "w": "La",
+          "start": 117.36,
+          "end": 117.64
+        },
+        {
+          "w": "oposición",
+          "start": 117.69,
+          "end": 118.17
+        },
+        {
+          "w": "dice",
+          "start": 118.22,
+          "end": 118.56
+        },
+        {
+          "w": "que",
+          "start": 118.61,
+          "end": 118.92
+        },
+        {
+          "w": "el",
+          "start": 118.97,
+          "end": 119.24
+        },
+        {
+          "w": "ajuste",
+          "start": 119.29,
+          "end": 119.69
+        },
+        {
+          "w": "va",
+          "start": 119.74,
+          "end": 120.01
+        },
+        {
+          "w": "a",
+          "start": 120.06,
+          "end": 120.31
+        },
+        {
+          "w": "recaer",
+          "start": 120.36,
+          "end": 120.76
+        },
+        {
+          "w": "sobre",
+          "start": 120.81,
+          "end": 121.17
+        },
+        {
+          "w": "los",
+          "start": 121.22,
+          "end": 121.53
+        },
+        {
+          "w": "jubilados.",
+          "start": 121.58,
+          "end": 122.09
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "start": 123.44,
+      "end": 127.88,
+      "speaker": "Speaker 2",
+      "text": "Según la oposición, el ajuste va a recaer sobre los jubilados.",
+      "words": [
+        {
+          "w": "Según",
+          "start": 123.44,
+          "end": 123.81
+        },
+        {
+          "w": "la",
+          "start": 123.86,
+          "end": 124.14
+        },
+        {
+          "w": "oposición,",
+          "start": 124.19,
+          "end": 124.7
+        },
+        {
+          "w": "el",
+          "start": 124.75,
+          "end": 125.03
+        },
+        {
+          "w": "ajuste",
+          "start": 125.08,
+          "end": 125.47
+        },
+        {
+          "w": "va",
+          "start": 125.52,
+          "end": 125.8
+        },
+        {
+          "w": "a",
+          "start": 125.85,
+          "end": 126.1
+        },
+        {
+          "w": "recaer",
+          "start": 126.15,
+          "end": 126.54
+        },
+        {
+          "w": "sobre",
+          "start": 126.59,
+          "end": 126.96
+        },
+        {
+          "w": "los",
+          "start": 127.01,
+          "end": 127.31
+        },
+        {
+          "w": "jubilados.",
+          "start": 127.36,
+          "end": 127.88
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "start": 128.63,
+      "end": 131.76,
+      "speaker": "Speaker 2",
+      "text": "Eso es falso, y los números lo demuestran.",
+      "words": [
+        {
+          "w": "Eso",
+          "start": 128.63,
+          "end": 128.94
+        },
+        {
+          "w": "es",
+          "start": 128.99,
+          "end": 129.26
+        },
+        {
+          "w": "falso,",
+          "start": 129.31,
+          "end": 129.71
+        },
+        {
+          "w": "y",
+          "start": 129.76,
+          "end": 130.0
+        },
+        {
+          "w": "los",
+          "start": 130.05,
+          "end": 130.36
+        },
+        {
+          "w": "números",
+          "start": 130.41,
+          "end": 130.84
+        },
+        {
+          "w": "lo",
+          "start": 130.89,
+          "end": 131.16
+        },
+        {
+          "w": "demuestran.",
+          "start": 131.21,
+          "end": 131.76
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "start": 132.51,
+      "end": 138.76,
+      "speaker": "Speaker 2",
+      "text": "Las jubilaciones mínimas aumentaron un doce por ciento por encima de la inflación este año.",
+      "words": [
+        {
+          "w": "Las",
+          "start": 132.51,
+          "end": 132.81
+        },
+        {
+          "w": "jubilaciones",
+          "start": 132.86,
+          "end": 133.44
+        },
+        {
+          "w": "mínimas",
+          "start": 133.49,
+          "end": 133.92
+        },
+        {
+          "w": "aumentaron",
+          "start": 133.97,
+          "end": 134.48
+        },
+        {
+          "w": "un",
+          "start": 134.53,
+          "end": 134.81
+        },
+        {
+          "w": "doce",
+          "start": 134.86,
+          "end": 135.19
+        },
+        {
+          "w": "por",
+          "start": 135.24,
+          "end": 135.55
+        },
+        {
+          "w": "ciento",
+          "start": 135.6,
+          "end": 136.0
+        },
+        {
+          "w": "por",
+          "start": 136.05,
+          "end": 136.35
+        },
+        {
+          "w": "encima",
+          "start": 136.4,
+          "end": 136.8
+        },
+        {
+          "w": "de",
+          "start": 136.85,
+          "end": 137.12
+        },
+        {
+          "w": "la",
+          "start": 137.17,
+          "end": 137.45
+        },
+        {
+          "w": "inflación",
+          "start": 137.5,
+          "end": 137.99
+        },
+        {
+          "w": "este",
+          "start": 138.04,
+          "end": 138.37
+        },
+        {
+          "w": "año.",
+          "start": 138.42,
+          "end": 138.76
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "start": 139.51,
+      "end": 144.66,
+      "speaker": "Speaker 2",
+      "text": "Ningún jubilado va a cobrar menos en términos reales el año que viene.",
+      "words": [
+        {
+          "w": "Ningún",
+          "start": 139.51,
+          "end": 139.9
+        },
+        {
+          "w": "jubilado",
+          "start": 139.95,
+          "end": 140.41
+        },
+        {
+          "w": "va",
+          "start": 140.46,
+          "end": 140.74
+        },
+        {
+          "w": "a",
+          "start": 140.79,
+          "end": 141.03
+        },
+        {
+          "w": "cobrar",
+          "start": 141.08,
+          "end": 141.48
+        },
+        {
+          "w": "menos",
+          "start": 141.53,
+          "end": 141.89
+        },
+        {
+          "w": "en",
+          "start": 141.94,
+          "end": 142.22
+        },
+        {
+          "w": "términos",
+          "start": 142.27,
+          "end": 142.73
+        },
+        {
+          "w": "reales",
+          "start": 142.78,
+          "end": 143.17
+        },
+        {
+          "w": "el",
+          "start": 143.22,
+          "end": 143.5
+        },
+        {
+          "w": "año",
+          "start": 143.55,
+          "end": 143.85
+        },
+        {
+          "w": "que",
+          "start": 143.9,
+          "end": 144.21
+        },
+        {
+          "w": "viene.",
+          "start": 144.26,
+          "end": 144.66
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "start": 146.01,
+      "end": 151.96,
+      "speaker": "Speaker 1",
+      "text": "Algunos economistas dicen que la inflación puede bajar a cero rápidamente si se dolariza.",
+      "words": [
+        {
+          "w": "Algunos",
+          "start": 146.01,
+          "end": 146.43
+        },
+        {
+          "w": "economistas",
+          "start": 146.48,
+          "end": 147.03
+        },
+        {
+          "w": "dicen",
+          "start": 147.08,
+          "end": 147.44
+        },
+        {
+          "w": "que",
+          "start": 147.49,
+          "end": 147.8
+        },
+        {
+          "w": "la",
+          "start": 147.85,
+          "end": 148.13
+        },
+        {
+          "w": "inflación",
+          "start": 148.18,
+          "end": 148.66
+        },
+        {
+          "w": "puede",
+          "start": 148.71,
+          "end": 149.08
+        },
+        {
+          "w": "bajar",
+          "start": 149.13,
+          "end": 149.49
+        },
+        {
+          "w": "a",
+          "start": 149.54,
+          "end": 149.79
+        },
+        {
+          "w": "cero",
+          "start": 149.84,
+          "end": 150.18
+        },
+        {
+          "w": "rápidamente",
+          "start": 150.23,
+          "end": 150.77
+        },
+        {
+          "w": "si",
+          "start": 150.82,
+          "end": 151.1
+        },
+        {
+          "w": "se",
+          "start": 151.15,
+          "end": 151.42
+        },
+        {
+          "w": "dolariza.",
+          "start": 151.47,
+          "end": 151.96
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "start": 153.31,
+      "end": 157.54,
+      "speaker": "Speaker 2",
+      "text": "Claro, y mañana la inflación va a ser cero por decreto.",
+      "words": [
+        {
+          "w": "Claro,",
+          "start": 153.31,
+          "end": 153.71
+        },
+        {
+          "w": "y",
+          "start": 153.76,
+          "end": 154.0
+        },
+        {
+          "w": "mañana",
+          "start": 154.05,
+          "end": 154.45
+        },
+        {
+          "w": "la",
+          "start": 154.5,
+          "end": 154.77
+        },
+        {
+          "w": "inflación",
+          "start": 154.82,
+          "end": 155.31
+        },
+        {
+          "w": "va",
+          "start": 155.36,
+          "end": 155.64
+        },
+        {
+          "w": "a",
+          "start": 155.69,
+          "end": 155.93
+        },
+        {
+          "w": "ser",
+          "start": 155.98,
+          "end": 156.29
+        },
+        {
+          "w": "cero",
+          "start": 156.34,
+          "end": 156.67
+        },
+        {
+          "w": "por",
+          "start": 156.72,
+          "end": 157.03
+        },
+        {
+          "w": "decreto.",
+          "start": 157.08,
+          "end": 157.54
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "start": 158.29,
+      "end": 162.54,
+      "speaker": "Speaker 2",
+      "text": "Eso es lo que dicen algunos, y sinceramente no es serio.",
+      "words": [
+        {
+          "w": "Eso",
+          "start": 158.29,
+          "end": 158.59
+        },
+        {
+          "w": "es",
+          "start": 158.64,
+          "end": 158.92
+        },
+        {
+          "w": "lo",
+          "start": 158.97,
+          "end": 159.24
+        },
+        {
+          "w": "que",
+          "start": 159.29,
+          "end": 159.6
+        },
+        {
+          "w": "dicen",
+          "start": 159.65,
+          "end": 160.02
+        },
+        {
+          "w": "algunos,",
+          "start": 160.07,
+          "end": 160.52
+        },
+        {
+          "w": "y",
+          "start": 160.57,
+          "end": 160.82
+        },
+        {
+          "w": "sinceramente",
+          "start": 160.87,
+          "end": 161.44
+        },
+        {
+          "w": "no",
+          "start": 161.49,
+          "end": 161.77
+        },
+        {
+          "w": "es",
+          "start": 161.82,
+          "end": 162.1
+        },
+        {
+          "w": "serio.",
+          "start": 162.15,
+          "end": 162.54
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "start": 163.29,
+      "end": 167.85,
+      "speaker": "Speaker 2",
+      "text": "Bajar la inflación lleva tiempo, consistencia fiscal y acuerdos políticos.",
+      "words": [
+        {
+          "w": "Bajar",
+          "start": 163.29,
+          "end": 163.66
+        },
+        {
+          "w": "la",
+          "start": 163.71,
+          "end": 163.98
+        },
+        {
+          "w": "inflación",
+          "start": 164.03,
+          "end": 164.52
+        },
+        {
+          "w": "lleva",
+          "start": 164.57,
+          "end": 164.94
+        },
+        {
+          "w": "tiempo,",
+          "start": 164.99,
+          "end": 165.41
+        },
+        {
+          "w": "consistencia",
+          "start": 165.46,
+          "end": 166.04
+        },
+        {
+          "w": "fiscal",
+          "start": 166.09,
+          "end": 166.48
+        },
+        {
+          "w": "y",
+          "start": 166.53,
+          "end": 166.78
+        },
+        {
+          "w": "acuerdos",
+          "start": 166.83,
+          "end": 167.29
+        },
+        {
+          "w": "políticos.",
+          "start": 167.34,
+          "end": 167.85
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "start": 169.2,
+      "end": 173.16,
+      "speaker": "Speaker 1",
+      "text": "¿Cuánto van a invertir en obra pública el año próximo?",
+      "words": [
+        {
+          "w": "¿Cuánto",
+          "start": 169.2,
+          "end": 169.63
+        },
+        {
+          "w": "van",
+          "start": 169.68,
+          "end": 169.98
+        },
+        {
+          "w": "a",
+          "start": 170.03,
+          "end": 170.28
+        },
+        {
+          "w": "invertir",
+          "start": 170.33,
+          "end": 170.79
+        },
+        {
+          "w": "en",
+          "start": 170.84,
+          "end": 171.11
+        },
+        {
+          "w": "obra",
+          "start": 171.16,
+          "end": 171.5
+        },
+        {
+          "w": "pública",
+          "start": 171.55,
+          "end": 171.97
+        },
+        {
+          "w": "el",
+          "start": 172.02,
+          "end": 172.3
+        },
+        {
+          "w": "año",
+          "start": 172.35,
+          "end": 172.66
+        },
+        {
+          "w": "próximo?",
+          "start": 172.71,
+          "end": 173.16
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "start": 174.51,
+      "end": 179.4,
+      "speaker": "Speaker 2",
+      "text": "El presupuesto contempla ochocientos mil millones de pesos para obra pública.",
+      "words": [
+        {
+          "w": "El",
+          "start": 174.51,
+          "end": 174.79
+        },
+        {
+          "w": "presupuesto",
+          "start": 174.84,
+          "end": 175.38
+        },
+        {
+          "w": "contempla",
+          "start": 175.43,
+          "end": 175.92
+        },
+        {
+          "w": "ochocientos",
+          "start": 175.97,
+          "end": 176.52
+        },
+        {
+          "w": "mil",
+          "start": 176.57,
+          "end": 176.87
+        },
+        {
+          "w": "millones",
+          "start": 176.92,
+          "end": 177.38
+        },
+        {
+          "w": "de",
+          "start": 177.43,
+          "end": 177.7
+        },
+        {
+          "w": "pesos",
+          "start": 177.75,
+          "end": 178.12
+        },
+        {
+          "w": "para",
+          "start": 178.17,
+          "end": 178.51
+        },
+        {
+          "w": "obra",
+          "start": 178.56,
+          "end": 178.89
+        },
+        {
+          "w": "pública.",
+          "start": 178.94,
+          "end": 179.4
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "start": 180.15,
+      "end": 184.76,
+      "speaker": "Speaker 2",
+      "text": "Es un veinte por ciento más que este año en términos reales.",
+      "words": [
+        {
+          "w": "Es",
+          "start": 180.15,
+          "end": 180.42
+        },
+        {
+          "w": "un",
+          "start": 180.47,
+          "end": 180.75
+        },
+        {
+          "w": "veinte",
+          "start": 180.8,
+          "end": 181.2
+        },
+        {
+          "w": "por",
+          "start": 181.25,
+          "end": 181.55
+        },
+        {
+          "w": "ciento",
+          "start": 181.6,
+          "end": 182.0
+        },
+        {
+          "w": "más",
+          "start": 182.05,
+          "end": 182.35
+        },
+        {
+          "w": "que",
+          "start": 182.4,
+          "end": 182.71
+        },
+        {
+          "w": "este",
+          "start": 182.76,
+          "end": 183.1
+        },
+        {
+          "w": "año",
+          "start": 183.15,
+          "end": 183.45
+        },
+        {
+          "w": "en",
+          "start": 183.5,
+          "end": 183.78
+        },
+        {
+          "w": "términos",
+          "start": 183.83,
+          "end": 184.28
+        },
+        {
+          "w": "reales.",
+          "start": 184.33,
+          "end": 184.76
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "start": 185.51,
+      "end": 191.7,
+      "speaker": "Speaker 2",
+      "text": "La prioridad son las rutas del norte y las obras de agua potable en el conurbano.",
+      "words": [
+        {
+          "w": "La",
+          "start": 185.51,
+          "end": 185.79
+        },
+        {
+          "w": "prioridad",
+          "start": 185.84,
+          "end": 186.32
+        },
+        {
+          "w": "son",
+          "start": 186.37,
+          "end": 186.68
+        },
+        {
+          "w": "las",
+          "start": 186.73,
+          "end": 187.03
+        },
+        {
+          "w": "rutas",
+          "start": 187.08,
+          "end": 187.45
+        },
+        {
+          "w": "del",
+          "start": 187.5,
+          "end": 187.81
+        },
+        {
+          "w": "norte",
+          "start": 187.86,
+          "end": 188.22
+        },
+        {
+          "w": "y",
+          "start": 188.27,
+          "end": 188.52
+        },
+        {
+          "w": "las",
+          "start": 188.57,
+          "end": 188.87
+        },
+        {
+          "w": "obras",
+          "start": 188.92,
+          "end": 189.29
+        },
+        {
+          "w": "de",
+          "start": 189.34,
+          "end": 189.62
+        },
+        {
+          "w": "agua",
+          "start": 189.67,
+          "end": 190.0
+        },
+        {
+          "w": "potable",
+          "start": 190.05,
+          "end": 190.48
+        },
+        {
+          "w": "en",
+          "start": 190.53,
+          "end": 190.8
+        },
+        {
+          "w": "el",
+          "start": 190.85,
+          "end": 191.13
+        },
+        {
+          "w": "conurbano.",
+          "start": 191.18,
+          "end": 191.7
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "start": 192.45,
+      "end": 198.81,
+      "speaker": "Speaker 2",
+      "text": "Vamos a publicar la lista completa de obras con sus montos en la página del ministerio.",
+      "words": [
+        {
+          "w": "Vamos",
+          "start": 192.45,
+          "end": 192.81
+        },
+        {
+          "w": "a",
+          "start": 192.86,
+          "end": 193.11
+        },
+        {
+          "w": "publicar",
+          "start": 193.16,
+          "end": 193.61
+        },
+        {
+          "w": "la",
+          "start": 193.66,
+          "end": 193.94
+        },
+        {
+          "w": "lista",
+          "start": 193.99,
+          "end": 194.36
+        },
+        {
+          "w": "completa",
+          "start": 194.41,
+          "end": 194.86
+        },
+        {
+          "w": "de",
+          "start": 194.91,
+          "end": 195.19
+        },
+        {
+          "w": "obras",
+          "start": 195.24,
+          "end": 195.6
+        },
+        {
+          "w": "con",
+          "start": 195.65,
+          "end": 195.96
+        },
+        {
+          "w": "sus",
+          "start": 196.01,
+          "end": 196.32
+        },
+        {
+          "w": "montos",
+          "start": 196.37,
+          "end": 196.76
+        },
+        {
+          "w": "en",
+          "start": 196.81,
+          "end": 197.09
+        },
+        {
+          "w": "la",
+          "start": 197.14,
+          "end": 197.41
+        },
+        {
+          "w": "página",
+          "start": 197.46,
+          "end": 197.86
+        },
+        {
+          "w": "del",
+          "start": 197.91,
+          "end": 198.22
+        },
+        {
+          "w": "ministerio.",
+          "start": 198.27,
+          "end": 198.81
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "start": 200.16,
+      "end": 204.01,
+      "speaker": "Speaker 1",
+      "text": "¿Hay fecha para el acuerdo con los acreedores internacionales?",
+      "words": [
+        {
+          "w": "¿Hay",
+          "start": 200.16,
+          "end": 200.5
+        },
+        {
+          "w": "fecha",
+          "start": 200.55,
+          "end": 200.91
+        },
+        {
+          "w": "para",
+          "start": 200.96,
+          "end": 201.3
+        },
+        {
+          "w": "el",
+          "start": 201.35,
+          "end": 201.63
+        },
+        {
+          "w": "acuerdo",
+          "start": 201.68,
+          "end": 202.1
+        },
+        {
+          "w": "con",
+          "start": 202.15,
+          "end": 202.46
+        },
+        {
+          "w": "los",
+          "start": 202.51,
+          "end": 202.81
+        },
+        {
+          "w": "acreedores",
+          "start": 202.86,
+          "end": 203.38
+        },
+        {
+          "w": "internacionales?",
+          "start": 203.43,
+          "end": 204.01
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "start": 205.36,
+      "end": 209.71,
+      "speaker": "Speaker 2",
+      "text": "Las negociaciones avanzan bien y esperamos cerrarlas antes de marzo.",
+      "words": [
+        {
+          "w": "Las",
+          "start": 205.36,
+          "end": 205.66
+        },
+        {
+          "w": "negociaciones",
+          "start": 205.71,
+          "end": 206.29
+        },
+        {
+          "w": "avanzan",
+          "start": 206.34,
+          "end": 206.76
+        },
+        {
+          "w": "bien",
+          "start": 206.81,
+          "end": 207.15
+        },
+        {
+          "w": "y",
+          "start": 207.2,
+          "end": 207.45
+        },
+        {
+          "w": "esperamos",
+          "start": 207.5,
+          "end": 207.98
+        },
+        {
+          "w": "cerrarlas",
+          "start": 208.03,
+          "end": 208.52
+        },
+        {
+          "w": "antes",
+          "start": 208.57,
+          "end": 208.93
+        },
+        {
+          "w": "de",
+          "start": 208.98,
+          "end": 209.26
+        },
+        {
+          "w": "marzo.",
+          "start": 209.31,
+          "end": 209.71
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "start": 210.46,
+      "end": 215.16,
+      "speaker": "Speaker 2",
+      "text": "No voy a adelantar detalles porque no quiero perjudicar la negociación.",
+      "words": [
+        {
+          "w": "No",
+          "start": 210.46,
+          "end": 210.73
+        },
+        {
+          "w": "voy",
+          "start": 210.78,
+          "end": 211.09
+        },
+        {
+          "w": "a",
+          "start": 211.14,
+          "end": 211.38
+        },
+        {
+          "w": "adelantar",
+          "start": 211.43,
+          "end": 211.92
+        },
+        {
+          "w": "detalles",
+          "start": 211.97,
+          "end": 212.43
+        },
+        {
+          "w": "porque",
+          "start": 212.48,
+          "end": 212.87
+        },
+        {
+          "w": "no",
+          "start": 212.92,
+          "end": 213.2
+        },
+        {
+          "w": "quiero",
+          "start": 213.25,
+          "end": 213.64
+        },
+        {
+          "w": "perjudicar",
+          "start": 213.69,
+          "end": 214.21
+        },
+        {
+          "w": "la",
+          "start": 214.26,
+          "end": 214.54
+        },
+        {
+          "w": "negociación.",
+          "start": 214.59,
+          "end": 215.16
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "start": 216.51,
+      "end": 221.39,
+      "speaker": "Speaker 1",
+      "text": "¿Qué pasa con el empleo? Las pymes dicen que están despidiendo gente.",
+      "words": [
+        {
+          "w": "¿Qué",
+          "start": 216.51,
+          "end": 216.85
+        },
+        {
+          "w": "pasa",
+          "start": 216.9,
+          "end": 217.23
+        },
+        {
+          "w": "con",
+          "start": 217.28,
+          "end": 217.59
+        },
+        {
+          "w": "el",
+          "start": 217.64,
+          "end": 217.92
+        },
+        {
+          "w": "empleo?",
+          "start": 217.97,
+          "end": 218.39
+        },
+        {
+          "w": "Las",
+          "start": 218.44,
+          "end": 218.75
+        },
+        {
+          "w": "pymes",
+          "start": 218.8,
+          "end": 219.16
+        },
+        {
+          "w": "dicen",
+          "start": 219.21,
+          "end": 219.58
+        },
+        {
+          "w": "que",
+          "start": 219.63,
+          "end": 219.94
+        },
+        {
+          "w": "están",
+          "start": 219.99,
+          "end": 220.35
+        },
+        {
+          "w": "despidiendo",
+          "start": 220.4,
+          "end": 220.95
+        },
+        {
+          "w": "gente.",
+          "start": 221.0,
+          "end": 221.39
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "start": 222.74,
+      "end": 228.19,
+      "speaker": "Speaker 2",
+      "text": "El empleo registrado creció cuarenta y cinco mil puestos en el último trimestre.",
+      "words": [
+        {
+          "w": "El",
+          "start": 222.74,
+          "end": 223.02
+        },
+        {
+          "w": "empleo",
+          "start": 223.07,
+          "end": 223.47
+        },
+        {
+          "w": "registrado",
+          "start": 223.52,
+          "end": 224.03
+        },
+        {
+          "w": "creció",
+          "start": 224.08,
+          "end": 224.48
+        },
+        {
+          "w": "cuarenta",
+          "start": 224.53,
+          "end": 224.98
+        },
+        {
+          "w": "y",
+          "start": 225.03,
+          "end": 225.28
+        },
+        {
+          "w": "cinco",
+          "start": 225.33,
+          "end": 225.7
+        },
+        {
+          "w": "mil",
+          "start": 225.75,
+          "end": 226.05
+        },
+        {
+          "w": "puestos",
+          "start": 226.1,
+          "end": 226.53
+        },
+        {
+          "w": "en",
+          "start": 226.58,
+          "end": 226.85
+        },
+        {
+          "w": "el",
+          "start": 226.9,
+          "end": 227.18
+        },
+        {
+          "w": "último",
+          "start": 227.23,
+          "end": 227.63
+        },
+        {
+          "w": "trimestre.",
+          "start": 227.68,
+          "end": 228.19
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "start": 228.94,
+      "end": 235.69,
+      "speaker": "Speaker 2",
+      "text": "Entiendo la preocupación de las pymes y por eso lanzamos el programa de crédito a tasa cero.",
+      "words": [
+        {
+          "w": "Entiendo",
+          "start": 228.94,
+          "end": 229.4
+        },
+        {
+          "w": "la",
+          "start": 229.45,
+          "end": 229.72
+        },
+        {
+          "w": "preocupación",
+          "start": 229.77,
+          "end": 230.35
+        },
+        {
+          "w": "de",
+          "start": 230.4,
+          "end": 230.68
+        },
+        {
+          "w": "las",
+          "start": 230.73,
+          "end": 231.03
+        },
+        {
+          "w": "pymes",
+          "start": 231.08,
+          "end": 231.45
+        },
+        {
+          "w": "y",
+          "start": 231.5,
+          "end": 231.74
+        },
+        {
+          "w": "por",
+          "start": 231.79,
+          "end": 232.1
+        },
+        {
+          "w": "eso",
+          "start": 232.15,
+          "end": 232.46
+        },
+        {
+          "w": "lanzamos",
+          "start": 232.51,
+          "end": 232.96
+        },
+        {
+          "w": "el",
+          "start": 233.01,
+          "end": 233.29
+        },
+        {
+          "w": "programa",
+          "start": 233.34,
+          "end": 233.79
+        },
+        {
+          "w": "de",
+          "start": 233.84,
+          "end": 234.12
+        },
+        {
+          "w": "crédito",
+          "start": 234.17,
+          "end": 234.6
+        },
+        {
+          "w": "a",
+          "start": 234.65,
+          "end": 234.89
+        },
+        {
+          "w": "tasa",
+          "start": 234.94,
+          "end": 235.28
+        },
+        {
+          "w": "cero.",
+          "start": 235.33,
+          "end": 235.69
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "start": 236.44,
+      "end": 243.23,
+      "speaker": "Speaker 2",
+      "text": "Son cien mil millones de pesos disponibles desde el lunes para empresas de hasta cincuenta empleados.",
+      "words": [
+        {
+          "w": "Son",
+          "start": 236.44,
+          "end": 236.75
+        },
+        {
+          "w": "cien",
+          "start": 236.8,
+          "end": 237.14
+        },
+        {
+          "w": "mil",
+          "start": 237.19,
+          "end": 237.49
+        },
+        {
+          "w": "millones",
+          "start": 237.54,
+          "end": 238.0
+        },
+        {
+          "w": "de",
+          "start": 238.05,
+          "end": 238.32
+        },
+        {
+          "w": "pesos",
+          "start": 238.37,
+          "end": 238.74
+        },
+        {
+          "w": "disponibles",
+          "start": 238.79,
+          "end": 239.34
+        },
+        {
+          "w": "desde",
+          "start": 239.39,
+          "end": 239.75
+        },
+        {
+          "w": "el",
+          "start": 239.8,
+          "end": 240.08
+        },
+        {
+          "w": "lunes",
+          "start": 240.13,
+          "end": 240.49
+        },
+        {
+          "w": "para",
+          "start": 240.54,
+          "end": 240.88
+        },
+        {
+          "w": "empresas",
+          "start": 240.93,
+          "end": 241.39
+        },
+        {
+          "w": "de",
+          "start": 241.44,
+          "end": 241.71
+        },
+        {
+          "w": "hasta",
+          "start": 241.76,
+          "end": 242.13
+        },
+        {
+          "w": "cincuenta",
+          "start": 242.18,
+          "end": 242.66
+        },
+        {
+          "w": "empleados.",
+          "start": 242.71,
+          "end": 243.23
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "start": 243.98,
+      "end": 246.28,
+      "speaker": "Speaker 2",
+      "text": "Quiero ser muy clara con esto.",
+      "words": [
+        {
+          "w": "Quiero",
+          "start": 243.98,
+          "end": 244.38
+        },
+        {
+          "w": "ser",
+          "start": 244.43,
+          "end": 244.73
+        },
+        {
+          "w": "muy",
+          "start": 244.78,
+          "end": 245.09
+        },
+        {
+          "w": "clara",
+          "start": 245.14,
+          "end": 245.5
+        },
+        {
+          "w": "con",
+          "start": 245.55,
+          "end": 245.86
+        },
+        {
+          "w": "esto.",
+          "start": 245.91,
+          "end": 246.28
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "start": 247.03,
+      "end": 253.31,
+      "speaker": "Speaker 2",
+      "text": "Ninguna pyme que mantenga su plantilla va a pagar intereses durante los primeros doce meses.",
+      "words": [
+        {
+          "w": "Ninguna",
+          "start": 247.03,
+          "end": 247.45
+        },
+        {
+          "w": "pyme",
+          "start": 247.5,
+          "end": 247.84
+        },
+        {
+          "w": "que",
+          "start": 247.89,
+          "end": 248.19
+        },
+        {
+          "w": "mantenga",
+          "start": 248.24,
+          "end": 248.7
+        },
+        {
+          "w": "su",
+          "start": 248.75,
+          "end": 249.03
+        },
+        {
+          "w": "plantilla",
+          "start": 249.08,
+          "end": 249.56
+        },
+        {
+          "w": "va",
+          "start": 249.61,
+          "end": 249.89
+        },
+        {
+          "w": "a",
+          "start": 249.94,
+          "end": 250.18
+        },
+        {
+          "w": "pagar",
+          "start": 250.23,
+          "end": 250.6
+        },
+        {
+          "w": "intereses",
+          "start": 250.65,
+          "end": 251.14
+        },
+        {
+          "w": "durante",
+          "start": 251.19,
+          "end": 251.61
+        },
+        {
+          "w": "los",
+          "start": 251.66,
+          "end": 251.97
+        },
+        {
+          "w": "primeros",
+          "start": 252.02,
+          "end": 252.47
+        },
+        {
+          "w": "doce",
+          "start": 252.52,
+          "end": 252.86
+        },
+        {
+          "w": "meses.",
+          "start": 252.91,
+          "end": 253.31
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "start": 254.66,
+      "end": 260.04,
+      "speaker": "Speaker 1",
+      "text": "Ministra, ¿se va a quedar en el cargo si no se aprueba el presupuesto?",
+      "words": [
+        {
+          "w": "Ministra,",
+          "start": 254.66,
+          "end": 255.14
+        },
+        {
+          "w": "¿se",
+          "start": 255.19,
+          "end": 255.5
+        },
+        {
+          "w": "va",
+          "start": 255.55,
+          "end": 255.82
+        },
+        {
+          "w": "a",
+          "start": 255.87,
+          "end": 256.12
+        },
+        {
+          "w": "quedar",
+          "start": 256.17,
+          "end": 256.57
+        },
+        {
+          "w": "en",
+          "start": 256.62,
+          "end": 256.89
+        },
+        {
+          "w": "el",
+          "start": 256.94,
+          "end": 257.22
+        },
+        {
+          "w": "cargo",
+          "start": 257.27,
+          "end": 257.63
+        },
+        {
+          "w": "si",
+          "start": 257.68,
+          "end": 257.96
+        },
+        {
+          "w": "no",
+          "start": 258.01,
+          "end": 258.29
+        },
+        {
+          "w": "se",
+          "start": 258.34,
+          "end": 258.61
+        },
+        {
+          "w": "aprueba",
+          "start": 258.66,
+          "end": 259.09
+        },
+        {
+          "w": "el",
+          "start": 259.14,
+          "end": 259.41
+        },
+        {
+          "w": "presupuesto?",
+          "start": 259.46,
+          "end": 260.04
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "start": 261.39,
+      "end": 265.77,
+      "speaker": "Speaker 2",
+      "text": "Me voy a quedar hasta que el presidente decida lo contrario.",
+      "words": [
+        {
+          "w": "Me",
+          "start": 261.39,
+          "end": 261.67
+        },
+        {
+          "w": "voy",
+          "start": 261.72,
+          "end": 262.02
+        },
+        {
+          "w": "a",
+          "start": 262.07,
+          "end": 262.32
+        },
+        {
+          "w": "quedar",
+          "start": 262.37,
+          "end": 262.76
+        },
+        {
+          "w": "hasta",
+          "start": 262.81,
+          "end": 263.18
+        },
+        {
+          "w": "que",
+          "start": 263.23,
+          "end": 263.54
+        },
+        {
+          "w": "el",
+          "start": 263.59,
+          "end": 263.86
+        },
+        {
+          "w": "presidente",
+          "start": 263.91,
+          "end": 264.43
+        },
+        {
+          "w": "decida",
+          "start": 264.48,
+          "end": 264.87
+        },
+        {
+          "w": "lo",
+          "start": 264.92,
+          "end": 265.2
+        },
+        {
+          "w": "contrario.",
+          "start": 265.25,
+          "end": 265.77
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "start": 266.52,
+      "end": 271.13,
+      "speaker": "Speaker 2",
+      "text": "Mi trabajo es que el presupuesto se apruebe, y en eso estoy.",
+      "words": [
+        {
+          "w": "Mi",
+          "start": 266.52,
+          "end": 266.79
+        },
+        {
+          "w": "trabajo",
+          "start": 266.84,
+          "end": 267.27
+        },
+        {
+          "w": "es",
+          "start": 267.32,
+          "end": 267.59
+        },
+        {
+          "w": "que",
+          "start": 267.64,
+          "end": 267.95
+        },
+        {
+          "w": "el",
+          "start": 268.0,
+          "end": 268.28
+        },
+        {
+          "w": "presupuesto",
+          "start": 268.33,
+          "end": 268.87
+        },
+        {
+          "w": "se",
+          "start": 268.92,
+          "end": 269.2
+        },
+        {
+          "w": "apruebe,",
+          "start": 269.25,
+          "end": 269.7
+        },
+        {
+          "w": "y",
+          "start": 269.75,
+          "end": 270.0
+        },
+        {
+          "w": "en",
+          "start": 270.05,
+          "end": 270.33
+        },
+        {
+          "w": "eso",
+          "start": 270.38,
+          "end": 270.68
+        },
+        {
+          "w": "estoy.",
+          "start": 270.73,
+          "end": 271.13
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "start": 272.48,
+      "end": 274.92,
+      "speaker": "Speaker 1",
+      "text": "Una última pregunta sobre el dólar.",
+      "words": [
+        {
+          "w": "Una",
+          "start": 272.48,
+          "end": 272.78
+        },
+        {
+          "w": "última",
+          "start": 272.83,
+          "end": 273.23
+        },
+        {
+          "w": "pregunta",
+          "start": 273.28,
+          "end": 273.74
+        },
+        {
+          "w": "sobre",
+          "start": 273.79,
+          "end": 274.15
+        },
+        {
+          "w": "el",
+          "start": 274.2,
+          "end": 274.48
+        },
+        {
+          "w": "dólar.",
+          "start": 274.53,
+          "end": 274.92
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "start": 275.67,
+      "end": 278.98,
+      "speaker": "Speaker 1",
+      "text": "¿Van a mantener el esquema de bandas cambiarias?",
+      "words": [
+        {
+          "w": "¿Van",
+          "start": 275.67,
+          "end": 276.01
+        },
+        {
+          "w": "a",
+          "start": 276.06,
+          "end": 276.31
+        },
+        {
+          "w": "mantener",
+          "start": 276.36,
+          "end": 276.81
+        },
+        {
+          "w": "el",
+          "start": 276.86,
+          "end": 277.14
+        },
+        {
+          "w": "esquema",
+          "start": 277.19,
+          "end": 277.61
+        },
+        {
+          "w": "de",
+          "start": 277.66,
+          "end": 277.94
+        },
+        {
+          "w": "bandas",
+          "start": 277.99,
+          "end": 278.39
+        },
+        {
+          "w": "cambiarias?",
+          "start": 278.44,
+          "end": 278.98
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "start": 280.33,
+      "end": 285.0,
+      "speaker": "Speaker 2",
+      "text": "El esquema de bandas se mantiene sin cambios hasta fin de año.",
+      "words": [
+        {
+          "w": "El",
+          "start": 280.33,
+          "end": 280.61
+        },
+        {
+          "w": "esquema",
+          "start": 280.66,
+          "end": 281.08
+        },
+        {
+          "w": "de",
+          "start": 281.13,
+          "end": 281.41
+        },
+        {
+          "w": "bandas",
+          "start": 281.46,
+          "end": 281.86
+        },
+        {
+          "w": "se",
+          "start": 281.91,
+          "end": 282.18
+        },
+        {
+          "w": "mantiene",
+          "start": 282.23,
+          "end": 282.69
+        },
+        {
+          "w": "sin",
+          "start": 282.74,
+          "end": 283.04
+        },
+        {
+          "w": "cambios",
+          "start": 283.09,
+          "end": 283.52
+        },
+        {
+          "w": "hasta",
+          "start": 283.57,
+          "end": 283.94
+        },
+        {
+          "w": "fin",
+          "start": 283.99,
+          "end": 284.29
+        },
+        {
+          "w": "de",
+          "start": 284.34,
+          "end": 284.62
+        },
+        {
+          "w": "año.",
+          "start": 284.67,
+          "end": 285.0
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "start": 285.75,
+      "end": 290.07,
+      "speaker": "Speaker 2",
+      "text": "No vamos a devaluar y no vamos a imponer nuevos controles.",
+      "words": [
+        {
+          "w": "No",
+          "start": 285.75,
+          "end": 286.03
+        },
+        {
+          "w": "vamos",
+          "start": 286.08,
+          "end": 286.45
+        },
+        {
+          "w": "a",
+          "start": 286.5,
+          "end": 286.74
+        },
+        {
+          "w": "devaluar",
+          "start": 286.79,
+          "end": 287.25
+        },
+        {
+          "w": "y",
+          "start": 287.3,
+          "end": 287.54
+        },
+        {
+          "w": "no",
+          "start": 287.59,
+          "end": 287.87
+        },
+        {
+          "w": "vamos",
+          "start": 287.92,
+          "end": 288.29
+        },
+        {
+          "w": "a",
+          "start": 288.34,
+          "end": 288.58
+        },
+        {
+          "w": "imponer",
+          "start": 288.63,
+          "end": 289.06
+        },
+        {
+          "w": "nuevos",
+          "start": 289.11,
+          "end": 289.5
+        },
+        {
+          "w": "controles.",
+          "start": 289.55,
+          "end": 290.07
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "start": 290.82,
+      "end": 296.77,
+      "speaker": "Speaker 2",
+      "text": "Lo dije hace un mes y lo repito hoy con los mismos números sobre la mesa.",
+      "words": [
+        {
+          "w": "Lo",
+          "start": 290.82,
+          "end": 291.1
+        },
+        {
+          "w": "dije",
+          "start": 291.15,
+          "end": 291.48
+        },
+        {
+          "w": "hace",
+          "start": 291.53,
+          "end": 291.87
+        },
+        {
+          "w": "un",
+          "start": 291.92,
+          "end": 292.19
+        },
+        {
+          "w": "mes",
+          "start": 292.24,
+          "end": 292.55
+        },
+        {
+          "w": "y",
+          "start": 292.6,
+          "end": 292.85
+        },
+        {
+          "w": "lo",
+          "start": 292.9,
+          "end": 293.17
+        },
+        {
+          "w": "repito",
+          "start": 293.22,
+          "end": 293.62
+        },
+        {
+          "w": "hoy",
+          "start": 293.67,
+          "end": 293.97
+        },
+        {
+          "w": "con",
+          "start": 294.02,
+          "end": 294.33
+        },
+        {
+          "w": "los",
+          "start": 294.38,
+          "end": 294.69
+        },
+        {
+          "w": "mismos",
+          "start": 294.74,
+          "end": 295.13
+        },
+        {
+          "w": "números",
+          "start": 295.18,
+          "end": 295.61
+        },
+        {
+          "w": "sobre",
+          "start": 295.66,
+          "end": 296.02
+        },
+        {
+          "w": "la",
+          "start": 296.07,
+          "end": 296.35
+        },
+        {
+          "w": "mesa.",
+          "start": 296.4,
+          "end": 296.77
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "start": 297.52,
+      "end": 301.66,
+      "speaker": "Speaker 2",
+      "text": "Muchas gracias a todos. Nos vemos en la próxima conferencia.",
+      "words": [
+        {
+          "w": "Muchas",
+          "start": 297.52,
+          "end": 297.91
+        },
+        {
+          "w": "gracias",
+          "start": 297.96,
+          "end": 298.39
+        },
+        {
+          "w": "a",
+          "start": 298.44,
+          "end": 298.68
+        },
+        {
+          "w": "todos.",
+          "start": 298.73,
+          "end": 299.13
+        },
+        {
+          "w": "Nos",
+          "start": 299.18,
+          "end": 299.49
+        },
+        {
+          "w": "vemos",
+          "start": 299.54,
+          "end": 299.9
+        },
+        {
+          "w": "en",
+          "start": 299.95,
+          "end": 300.23
+        },
+        {
+          "w": "la",
+          "start": 300.28,
+          "end": 300.55
+        },
+        {
+          "w": "próxima",
+          "start": 300.6,
+          "end": 301.03
+        },
+        {
+          "w": "conferencia.",
+          "start": 301.08,
+          "end": 301.66
+        }
+      ]
+    }
+  ]
+}

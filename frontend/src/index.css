@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Inter:wght@400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+body { @apply bg-paper text-ink font-sans antialiased; }
+h1, h2, h3 { @apply font-serif; }
+
+.card { @apply bg-white border border-line rounded-card; }
+.btn { @apply inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium border transition-colors disabled:opacity-40 disabled:cursor-not-allowed; }
+.btn-primary { @apply btn bg-teal text-white border-teal hover:bg-[#0c5a46]; }
+.btn-ghost { @apply btn bg-white border-line hover:bg-paper2; }
+.btn-danger { @apply btn bg-white border-red text-red hover:bg-redsoft; }
+.pill { @apply inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium border; }
+.kbd { @apply inline-block px-1.5 py-0.5 text-[10px] rounded border border-line bg-paper2 text-ink2 font-mono; }
+input, textarea { @apply bg-white border border-line rounded-md px-3 py-2 text-sm outline-none focus:border-teal; }

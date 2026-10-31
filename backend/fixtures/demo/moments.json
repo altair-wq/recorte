@@ -1,0 +1,84 @@
+{
+  "moments": [
+    {
+      "start_utt": 8,
+      "end_utt": 10,
+      "headline": "Promete inflación de un dígito mensual en el primer trimestre",
+      "summary": "La ministra fija una meta de inflación por debajo del uno por ciento mensual hacia marzo o abril, sin congelar precios ni tocar salarios.",
+      "why": "Es la meta cuantitativa más fuerte de la conferencia y compromete al gobierno con un plazo.",
+      "quote": "vamos a bajar la inflación a un dígito mensual en el primer trimestre.",
+      "speaker": "Speaker 2",
+      "newsworthiness": 5
+    },
+    {
+      "start_utt": 14,
+      "end_utt": 15,
+      "headline": "Periodista: ¿aumentan luz y gas un 40 % en enero?",
+      "summary": "Un periodista pregunta por versiones de un aumento del cuarenta por ciento en tarifas de luz y gas.",
+      "why": "La pregunta instala el tema de tarifas, uno de los más sensibles para la audiencia.",
+      "quote": "¿van a aumentar las tarifas de luz y gas en enero?",
+      "speaker": "Speaker 1",
+      "newsworthiness": 3
+    },
+    {
+      "start_utt": 21,
+      "end_utt": 23,
+      "headline": "“Ningún jubilado va a cobrar menos en términos reales”",
+      "summary": "La ministra califica de falsa una afirmación y asegura que las jubilaciones mínimas subieron doce puntos por encima de la inflación.",
+      "why": "Desmentida directa con un número verificable sobre jubilaciones.",
+      "quote": "Ningún jubilado va a cobrar menos en términos reales el año que viene.",
+      "speaker": "Speaker 2",
+      "newsworthiness": 4
+    },
+    {
+      "start_utt": 25,
+      "end_utt": 27,
+      "headline": "Dolarización: “Mañana la inflación va a ser cero por decreto… no es serio”",
+      "summary": "Ironiza sobre quienes prometen inflación cero con una dolarización y sostiene que bajarla lleva tiempo y acuerdos políticos.",
+      "why": "Toma de posición clara frente a una propuesta económica en debate.",
+      "quote": "Bajar la inflación lleva tiempo, consistencia fiscal y acuerdos políticos.",
+      "speaker": "Speaker 2",
+      "newsworthiness": 3
+    },
+    {
+      "start_utt": 29,
+      "end_utt": 32,
+      "headline": "Obra pública: 800 mil millones, un 20 % más en términos reales",
+      "summary": "El presupuesto destina ochocientos mil millones de pesos a obra pública, con prioridad en rutas del norte y agua potable en el conurbano.",
+      "why": "Cifra concreta y verificable con prioridades territoriales.",
+      "quote": "El presupuesto contempla ochocientos mil millones de pesos para obra pública.",
+      "speaker": "Speaker 2",
+      "newsworthiness": 4
+    },
+    {
+      "start_utt": 37,
+      "end_utt": 41,
+      "headline": "Crédito a tasa cero para pymes que mantengan empleo",
+      "summary": "Anuncia cien mil millones de pesos en crédito a tasa cero desde el lunes para empresas de hasta cincuenta empleados que mantengan su plantilla.",
+      "why": "Anuncio de política con monto, fecha y condición clara.",
+      "quote": "Ninguna pyme que mantenga su plantilla va a pagar intereses durante los primeros doce meses.",
+      "speaker": "Speaker 2",
+      "newsworthiness": 5
+    },
+    {
+      "start_utt": 43,
+      "end_utt": 44,
+      "headline": "“Me voy a quedar hasta que el presidente decida lo contrario”",
+      "summary": "Consultada sobre su continuidad si no se aprueba el presupuesto, la ministra dice que se queda hasta que el presidente decida lo contrario.",
+      "why": "Respuesta política directa sobre su continuidad en el cargo.",
+      "quote": "Me voy a quedar hasta que el presidente decida lo contrario.",
+      "speaker": "Speaker 2",
+      "newsworthiness": 4
+    },
+    {
+      "start_utt": 47,
+      "end_utt": 49,
+      "headline": "Dólar: “No vamos a devaluar y no vamos a imponer nuevos controles”",
+      "summary": "Ratifica el esquema de bandas cambiarias hasta fin de año y descarta una devaluación o nuevos controles.",
+      "why": "Compromiso explícito sobre el tipo de cambio, el tema que más mueve mercados.",
+      "quote": "No vamos a devaluar y no vamos a imponer nuevos controles.",
+      "speaker": "Speaker 2",
+      "newsworthiness": 5
+    }
+  ]
+}
