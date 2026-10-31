@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import logging
+import re
 import time
 from typing import Any
 
@@ -84,9 +85,46 @@ def find_moments_raw(source_id: str, tr: Transcript, *, use_fixture: bool = Fals
         return json.loads(fixture.read_text(encoding="utf-8"))["moments"]
     duration = tr.utterances[-1].end if tr.utterances else 0
     raw: list[dict] = []
-    for chunk in compact.chunks(tr):
-        raw.extend(_claude_find(chunk, tr.language, duration if len(compact.chunks(tr)) == 1 else 12 * 60))
+    chunks = compact.chunks(tr)
+    for chunk in chunks:
+        try:
+            raw.extend(_claude_find(chunk, tr.language, duration if len(chunks) == 1 else 12 * 60))
+        except Exception as e:  # noqa: BLE001 — never dead-end a source because the LLM call failed
+            log.warning("moment agent failed on a chunk (%s); using heuristic candidates", e)
+    if not raw:
+        raw = heuristic_candidates(tr)
+        db.log_call("moments.find", 0, model="heuristic")
     return raw
+
+
+_SIGNAL = re.compile(r"\d|por ciento|millones|vamos a|no vamos|nunca|ning[uú]n|falso|compromet|anunci|aument|baj[aó]|prometo|garantiz", re.I)
+
+
+def heuristic_candidates(tr: Transcript, max_n: int = 8) -> list[dict]:
+    """No-LLM fallback: pick utterances with numbers/claims, span them with the next utterance of the same speaker."""
+    scored = []
+    for u in tr.utterances:
+        hits = len(_SIGNAL.findall(u.text))
+        if hits and len(u.text.split()) >= 6:
+            scored.append((hits + min(len(u.text), 160) / 160, u))
+    scored.sort(key=lambda t: -t[0])
+    out: list[dict] = []
+    taken: list[tuple[float, float]] = []
+    for _, u in scored:
+        e_utt = u.id
+        nxt = tr.by_id(u.id + 1)
+        if nxt is not None and nxt.speaker == u.speaker:
+            e_utt = nxt.id
+        start, end = u.start, (tr.by_id(e_utt) or u).end
+        if any(snap.overlap_ratio((start, end), t) > 0.3 for t in taken):
+            continue
+        taken.append((start, end))
+        out.append({"start_utt": u.id, "end_utt": e_utt, "headline": u.text[:77].rstrip(" ,.;:") + ("…" if len(u.text) > 77 else ""),
+                    "summary": tr.text_between(u.id, e_utt)[:240], "why": "Afirmación con cifras o compromiso detectada automáticamente (sin LLM).",
+                    "quote": u.text, "speaker": u.speaker, "newsworthiness": 3})
+        if len(out) >= max_n:
+            break
+    return out
 
 
 def materialize(source_id: str, tr: Transcript, raw: list[dict], origin: str = "agent") -> list[Moment]:
